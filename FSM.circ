@@ -285,20 +285,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="8" pin="150,120" width="8" x="46" y="76"/>
       <circ-anchor facing="east" height="6" width="6" x="127" y="67"/>
     </appear>
-    <wire from="(340,370)" to="(350,370)"/>
     <wire from="(390,340)" to="(390,370)"/>
     <wire from="(150,120)" to="(170,120)"/>
-    <wire from="(380,370)" to="(390,370)"/>
-    <wire from="(470,320)" to="(500,320)"/>
     <wire from="(220,290)" to="(260,290)"/>
     <wire from="(230,260)" to="(260,260)"/>
-    <wire from="(310,270)" to="(330,270)"/>
     <wire from="(150,40)" to="(170,40)"/>
     <wire from="(260,390)" to="(290,390)"/>
     <wire from="(410,80)" to="(430,80)"/>
-    <wire from="(530,320)" to="(580,320)"/>
     <wire from="(380,270)" to="(380,300)"/>
-    <wire from="(360,270)" to="(380,270)"/>
+    <wire from="(470,320)" to="(580,320)"/>
+    <wire from="(340,370)" to="(390,370)"/>
+    <wire from="(310,270)" to="(380,270)"/>
     <wire from="(150,80)" to="(170,80)"/>
     <wire from="(260,350)" to="(290,350)"/>
     <wire from="(390,340)" to="(420,340)"/>
@@ -316,7 +313,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="6" loc="(303,164)" name="Text">
       <a name="text" val="------------------------------------------ Put your circuit below this line ------------------"/>
     </comp>
-    <comp lib="1" loc="(340,370)" name="AND Gate"/>
+    <comp lib="1" loc="(310,270)" name="AND Gate"/>
     <comp lib="0" loc="(170,80)" name="Tunnel">
       <a name="label" val="St0"/>
     </comp>
@@ -333,9 +330,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(170,40)" name="Tunnel">
       <a name="label" val="FSM_In"/>
     </comp>
-    <comp lib="1" loc="(530,320)" name="NOT Gate"/>
-    <comp lib="1" loc="(360,270)" name="NOT Gate"/>
-    <comp lib="1" loc="(380,370)" name="NOT Gate"/>
+    <comp lib="1" loc="(340,370)" name="OR Gate"/>
     <comp lib="0" loc="(260,390)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="St0"/>
@@ -350,7 +345,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(150,120)" name="Pin">
       <a name="label" val="State_Bit_1"/>
     </comp>
-    <comp lib="1" loc="(310,270)" name="OR Gate"/>
     <comp lib="0" loc="(220,290)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="St1"/>
